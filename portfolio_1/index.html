@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - P.Bhanu Jai Chandu</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/Favicon.png"  class="w-56 h-56 rounded-full border-4 border-blue-400 shadow-lg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-gray-900/90 backdrop-blur-md py-4 px-8 flex justify-between items-center shadow-md z-50">
+    <h1 class="text-xl font-bold text-blue-400">P.Bhanu Jai Chandu</h1>
+    <div class="flex gap-6 text-gray-300">
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#skills" class="hover:text-blue-400">Skills</a>
+      <a href="#projects" class="hover:text-blue-400">Certifications</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-center h-screen text-center md:text-left px-6 gap-10">
+    <div>
+      <h1 class="text-5xl md:text-6xl font-extrabold">
+        Hi, I'm <span class="text-blue-400">Bhanu Jai Chandu</span>
+      </h1>
+      <p class="mt-4 text-xl md:text-2xl text-gray-300">
+        Aspiring Data Scientist | Python | Power BI | Innovator
+      </p>
+      <div class="flex gap-6 mt-6 justify-center md:justify-start">
+        <a href="#projects" class="bg-blue-500 px-6 py-3 rounded-xl hover:bg-blue-600 transition">View Projects</a>
+        <a href="#contact" class="border border-blue-500 px-6 py-3 rounded-xl hover:bg-blue-500/20 transition">Contact Me</a>
+      </div>
+    </div>
+    <!-- Profile Image in Hero -->
+    <img src="images/porfessional_headshot_pro.jpg" alt="P.Bhanu Jai Chandu" class="w-56 h-56 rounded-full border-4 border-blue-400 shadow-lg">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-24 px-6 text-center bg-gray-900">
+    <h2 class="text-4xl font-bold mb-6">About Me</h2>
+
+    <!-- Profile Image in About -->
+    <img src="images/porfessional_headshot_pro.jpg" alt="P.Bhanu Jai Chandu" 
+         class="w-40 h-40 mx-auto mb-6 rounded-full border-4 border-blue-400 shadow-lg">
+
+    <p class="max-w-3xl mx-auto text-gray-300 leading-relaxed text-lg">
+      Passionate about harnessing technology to drive meaningful change, I specialize in data analysis, machine learning, and full-stack development. I enjoy transforming complex data into actionable insights and building scalable applications. My curiosity for emerging tech and dedication to continuous learning fuel my drive to deliver innovative, high-impact solutions.    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-24 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-10">Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">Python</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">c++</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">Java</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">SQL</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">Power BI</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">HTML</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">CSS</div>
+      <div class="p-5 bg-gray-800 rounded-2xl shadow-lg text-lg font-semibold">Tableau</div>
+
+
+      
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-24 px-6 bg-gray-900 text-center">
+    <h2 class="text-4xl font-bold mb-10">Certifications & Projects</h2>
+    <div class="grid gap-10 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
+      <div class="p-6 bg-gray-800 rounded-2xl shadow-xl text-left">
+        <h3 class="text-2xl font-semibold mb-3">Data Visualisation By TATA</h3>
+        <p class="text-gray-400 mb-5">Virtual Internship on TATA through the support of Forage. </p>
+        <a href="pdfs/Bhanu_Jai_Chandu_TATA_Internship_certificate.pdf" class="text-blue-400 hover:underline font-medium">View Certification →</a>
+
+
+
+      </div><div class="p-6 bg-gray-800 rounded-2xl shadow-xl text-left">
+        <h3 class="text-2xl font-semibold mb-3">Portfolio Website</h3>
+        <p class="text-gray-400 mb-5">Responsive personal portfolio built with HTML, CSS & Tailwind.</p>
+        <a href="#">View Project →</a>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-2xl shadow-xl text-left">
+        <h3 class="text-2xl font-semibold mb-3">Data Analytics By Deloitte</h3>
+        <p class="text-gray-400 mb-5">Data analytics Certification by Deloitte.</p>
+        <a href="pdfs/Delliote data_analytics Certificate.pdf" class="text-blue-400 hover:underline font-medium" class="text-blue-400 hover:underline font-medium">View Certification →</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6">Contact</h2>
+    <p class="text-gray-300 mb-8 text-lg">Interested in collaborating? Let's connect!</p>
+<div class="flex justify-center gap-8 text-gray-400 text-2xl">
+  <a href="https://mail.google.com/mail/?view=cm&to=palanilathajaichandu@gmail.com" target="_blank" class="flex flex-col items-center hover:text-blue-400">
+    <span>📧</span>
+    <span class="text-sm mt-1">Email</span>
+  </a>
+  <a href="https://github.com/Lathajaichandu" target="_blank" class="flex flex-col items-center hover:text-blue-400">
+    <span>💻</span>
+    <span class="text-sm mt-1">GitHub</span>
+  </a>
+  <a href="https://www.linkedin.com/in/bhanu-jai-chandu-palani-505029289/" target="_blank" class="flex flex-col items-center hover:text-blue-400">
+    <span>💼</span>
+    <span class="text-sm mt-1">LinkedIn</span>
+  </a>
+  <a href="https://www.instagram.com/just_am_jai" target="_blank" class="flex flex-col items-center hover:text-blue-400">
+    <span>🔗</span>
+    <span class="text-sm mt-1">Instagram</span>
+  </a>
+</div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 bg-gray-950">
+    © 2025 P.Bhanu Jai Chandu | All Rights Reserved
+  </footer>
+
+</body>
+</html>
